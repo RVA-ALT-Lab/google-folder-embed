@@ -1,0 +1,41 @@
+<!doctype html>
+<html class="no-js" lang="EN">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>iframe for your Google Folder</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+      
+       <div class="container">
+    		<div class="row">
+    			<div class="col-md-12">
+    				 <h1>Embed a Google Folder in Canvas or Blackboard</h1>
+    			</div>
+    			<div class="col-md-12 directions">
+    				<p>You can embed live Google Folders in any site that lets you use iframes. It'll work in Canvas and Blackboard if you paste in the HTML view. </p>
+    				<p>Go to the Folder in Google Drive. Copy the URL. It will look something like this<br> <em>https://drive.google.com/drive/folders/1fNzyvgXJ5SuHnYAfLcsLw2wDUDfiyeEU?usp=sharing</em> </p>
+    			</div>
+    			<div class="col-md-12">
+    				<h2>Paste the folder URL below.</h2>
+
+					<input id="git-src" value='https://drive.google.com/drive/folders/1fNzyvgXJ5SuHnYAfLcsLw2wDUDfiyeEU?usp=sharing'></input>
+					<button class="btn btn-primary" id="copy">Copy the Embed Code</button> 
+    			</div>    			
+    		</div>
+    		<div class="demo col-md-12">
+    			<div style="position:relative;padding-bottom:56.25%;padding-top:30px;height:0;overflow:hidden;">
+                     <iframe src="https://drive.google.com/embeddedfolderview?id=1fNzyvgXJ5SuHnYAfLcsLw2wDUDfiyeEU#list" frameborder="0" width="100%" height="600px" scrolling="auto"> </iframe>
+    			</div>
+    		</div>
+    		<input id="embed-code"></input>
+    	</div>
+       
+        <script src="js/main.js"></script>
+
+    </body>
+</html>
