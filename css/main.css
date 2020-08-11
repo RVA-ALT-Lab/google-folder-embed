@@ -3,7 +3,17 @@ input {
 	margin: 10px 0 20px 0;
 }
 
+.directions{
+	margin-top: 60px;
+}
+
 .btn {
 	display: block;
 	margin: 20px auto;
+}
+
+.demo {
+	margin-top: 60px;
+	padding: 50px 100px;
+	background-color: #efefef;
 }
